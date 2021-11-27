@@ -1,0 +1,48 @@
+body{
+    background: greenyellow;
+}
+h1{
+    font-family: 'Special Elite', cursive;
+    background-color: cornsilk;
+    color:rgb(38, 0, 255);
+}
+#show_sketch{
+    float: right;
+}
+#score{
+    font-family: 'Special Elite', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5px;
+    float: left;
+}
+#timer{
+    font-family: 'Special Elite', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    float: right;
+    margin-right: 5px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+    color: black;
+}
+#sketch_to_be_drawn{
+    color: red;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px ;
+    margin-top: 150px;
+    box-shadow: 5px 5px 5px grey;
+    box-shadow: 1px 1px 1px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+    from {box-shadow: 1px 1px 38px grey;}
+    to {box-shadow: 1px 1px 38px white;}
+}
